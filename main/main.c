@@ -6,9 +6,21 @@
 //
 
 #include <stdio.h>
+#include <time.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+int main()
+{
+        clock_t start_time, end_time;
+        double execution_time;
+
+        // takes the time of when the benchmark starts
+        start_time = clock();
+
+
+
+
+
+        // takes the time of when the benchmark ends
+        end_time = clock();
 }
+
